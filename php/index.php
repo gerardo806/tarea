@@ -49,7 +49,8 @@
     1. Crear una variable que guarde un numero
         y verificar si es negativo, positivo o cero
     */
-
+    echo "ejercicio 1";
+    echo "<br>";
     $num = 4;
     if($num > 0){
         echo "El numero es positivo: " . $num;
@@ -58,6 +59,11 @@
     }else{
         echo "El numero es negativo: " . $num;
     }
+
+    echo "<br>";
+    echo "<br>";
+    echo "Segundo ejercicio";
+    echo "<br>";
 
     $mes = "mayo";
     switch ($mes) {
